@@ -1,0 +1,370 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Nav Bar Variables */
+body {
+  display: grid;
+  grid-template-columns: 272px auto;
+}
+body nav {
+  background-color: rgb(189, 93, 56);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+body nav img {
+  width: 144px;
+  height: 144px;
+  border: 8px solid;
+  border-radius: 100%;
+  border-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 32px;
+}
+body nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  transition: color 0.5s;
+  cursor: pointer;
+  font-weight: 900;
+  font-family: "AR One Sans", sans-serif;
+}
+body nav a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+body nav li {
+  width: 272px;
+  height: 40px;
+  text-align: center;
+}
+body header > div {
+  height: 100vh;
+  max-width: 1040px;
+}
+body header > #about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body header > #about .about-div {
+  font-family: "AR One Sans", sans-serif;
+}
+body header > #about .about-div h1 {
+  font-size: 350%;
+  margin-bottom: 10px;
+}
+body header > #about .about-div h1 span {
+  color: rgb(189, 93, 56);
+}
+body header > #about .about-div h3 {
+  font-size: 100%;
+  margin-bottom: 75px;
+  color: rgb(128, 127, 127);
+}
+body header > #about .about-div h3 span a {
+  color: rgb(189, 93, 56);
+  text-decoration: none;
+}
+body header > #about .about-div p {
+  color: rgba(128, 127, 127, 0.75);
+}
+body header > #about .icons-1 {
+  margin-top: 100px;
+  font-size: 150%;
+}
+body header > #about .icons-1 i {
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 15px;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  border-radius: 100%;
+}
+body header > #about .icons-1 i:hover {
+  background-color: rgb(189, 93, 56);
+}
+body header > #experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "AR One Sans", sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body header > #experience .experience-div h1 {
+  font-size: 350%;
+  margin-bottom: 70px;
+}
+body header > #experience .experience-div div {
+  position: relative;
+}
+body header > #experience .experience-div div h2 {
+  font-size: 190%;
+  margin-bottom: 10px;
+  color: rgb(68, 65, 65);
+}
+body header > #experience .experience-div div h3 {
+  font-size: 135%;
+  color: rgb(128, 127, 127);
+  margin-bottom: 30px;
+}
+body header > #experience .experience-div div p {
+  font-size: 90%;
+  color: rgba(128, 127, 127, 0.75);
+  margin-bottom: 50px;
+  max-width: 850px;
+}
+body header > #experience .experience-div div span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(189, 93, 56);
+}
+body header > #education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "AR One Sans", sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body header > #education .education-div h1 {
+  font-size: 350%;
+  margin-bottom: 70px;
+}
+body header > #education .education-div div {
+  position: relative;
+}
+body header > #education .education-div div h2 {
+  font-size: 190%;
+  margin-bottom: 10px;
+  color: rgb(68, 65, 65);
+}
+body header > #education .education-div div h3 {
+  font-size: 135%;
+  color: rgb(128, 127, 127);
+  margin-bottom: 30px;
+}
+body header > #education .education-div div div {
+  margin-bottom: 50px;
+}
+body header > #education .education-div div div p {
+  font-size: 90%;
+  color: rgba(128, 127, 127, 0.75);
+  margin-bottom: 10px;
+  max-width: 850px;
+}
+body header > #education .education-div div span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(189, 93, 56);
+}
+body header > #education .education-div div p {
+  font-size: 90%;
+  color: rgba(128, 127, 127, 0.75);
+  margin-bottom: 10px;
+  max-width: 850px;
+}
+body header > #skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "AR One Sans", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body header > #skills .skills-div h1 {
+  font-size: 350%;
+  margin-bottom: 70px;
+}
+body header > #skills .skills-div h3 {
+  font-size: 135%;
+  color: rgb(128, 127, 127);
+  margin-bottom: 30px;
+}
+body header > #skills .skills-div .icons-2 {
+  padding: 10px;
+  font-size: 325%;
+  color: grey;
+  margin-bottom: 30px;
+}
+body header > #skills .skills-div ul li {
+  font-size: 90%;
+  color: rgba(128, 127, 127, 0.75);
+  margin-bottom: 5px;
+}
+body header > #skills .skills-div ul li i {
+  margin-right: 15px;
+}
+body header > #interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "AR One Sans", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body header > #interests h1 {
+  font-size: 350%;
+  margin-bottom: 70px;
+}
+body header > #interests p {
+  font-size: 90%;
+  color: rgba(128, 127, 127, 0.75);
+  margin-bottom: 15px;
+  max-width: 1050px;
+}
+body header > #awards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "AR One Sans", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body header > #awards h1 {
+  font-size: 350%;
+  margin-bottom: 70px;
+}
+body header > #awards ul li {
+  font-size: 100%;
+  color: rgba(128, 127, 127, 0.75);
+  margin-bottom: 15px;
+}
+body header > #awards ul li i {
+  margin-right: 15px;
+  color: rgb(255, 193, 6);
+}/*# sourceMappingURL=small.css.map */
